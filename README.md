@@ -1,4 +1,4 @@
-# Laravel 10 清理意外洩露載有資訊安全細節的敏感性資訊
+# Laravel 11 清理意外洩露載有資訊安全細節的敏感性資訊
 
 引入 yorcreative 的 laravel-scrubber 套件來清理意外洩露載有資訊安全細節的敏感性資訊，記載資訊安全事項之有關文件或資訊，在提供外界使用及進行經驗交流時，應予適當的限制。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/VZMjRdn.png)
+![](https://i.imgur.com/VbDBPAH.png)
 > 內含機密性或敏感性資料的媒體，應以安全的方式處理
