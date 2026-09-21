@@ -1,4 +1,4 @@
-# Laravel 11 清理意外洩露載有資訊安全細節的敏感性資訊
+# Laravel 12 清理意外洩露載有資訊安全細節的敏感性資訊
 
 引入 yorcreative 的 laravel-scrubber 套件來清理意外洩露載有資訊安全細節的敏感性資訊，記載資訊安全事項之有關文件或資訊，在提供外界使用及進行經驗交流時，應予適當的限制。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/log/` 來進行敏感性資訊紀錄。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/VbDBPAH.png)
+![](https://i.imgur.com/mgHFQnD.png)
 > 內含機密性或敏感性資料的媒體，應以安全的方式處理
